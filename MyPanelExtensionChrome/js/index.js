@@ -1,9 +1,9 @@
 /*comprobar que el documento esté listo*/
 $(document).ready(function(){
 	/*clin en el boton llamado entre parentesis*/
-	$("#HHD").click(function(){
+	$("#btn").click(function(){
 		/*usando los tab's de chrome*/
-		chrome.tabs.create({url:'https://www.hiphopdescargas.com/'});
+		chrome.tabs.create({url:'https://www.google.com/'});
 	});
 	$("#gmail").click(function(){
 		/*usando los tab's de chrome*/
@@ -11,10 +11,14 @@ $(document).ready(function(){
 	});
 	$("#linkdin").click(function(){
 		/*usando los tab's de chrome*/
-		chrome.tabs.create({url:'https://www.linkedin.com/in/rufo/'});
+		chrome.tabs.create({url:'https://www.linkedin.com/'});
 	});
 	$("#infojobs").click(function(){
 		/*usando los tab's de chrome*/
 		chrome.tabs.create({url:'https://www.infojobs.net/'});
+	});
+	$("#github").click(function(){
+		/*usando los tab's de chrome*/
+		chrome.tabs.create({url:'https://github.com/'});
 	});
 });
