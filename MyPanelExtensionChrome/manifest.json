@@ -1,0 +1,37 @@
+/*https://developer.chrome.com/extensions/getstarted*/
+  {
+    "name": "My extension",
+    "version": "1.0",
+    "description": "This's my extension, Fuck You!",
+    "permissions": ["storage"],
+    /*Estilo popup*/
+    "browser_action":{
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/favicon16.png",
+        "32": "images/favicon32.png",
+        "48": "images/favicon48.png",
+        "64": "images/favicon64.png",
+        "128": "images/favicon128.png"
+      }
+    },
+    /*Estilo ventana emergente*/
+    /*"page_action": {
+      "default_popup": "page.html",
+      "default_icon": {
+        "16": "images/favicon16.png",
+        "32": "images/favicon32.png",
+        "48": "images/favicon48.png",
+        "64": "images/favicon64.png",
+        "128": "images/favicon128.png"
+      }
+    },*/
+    "icons": {
+      "16": "images/favicon16.png",
+      "32": "images/favicon32.png",
+      "48": "images/favicon48.png",
+      "64": "images/favicon64.png",
+      "128": "images/favicon128.png"
+    },
+    "manifest_version": 2
+  }
