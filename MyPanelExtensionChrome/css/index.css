@@ -1,0 +1,14 @@
+body{
+	height: 200px;
+	width: 200px;
+	background-color: #3F3F3F!important
+}
+a{
+	text-align: center;
+	cursor: default;
+}
+#HHD{
+	margin-top: 30%;
+	margin-bottom: 30%;
+	margin-left: 5%
+}
